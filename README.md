@@ -8,6 +8,7 @@ A Todo list application is a tool designed to help users manage tasks or activit
 ## Overview
 
 This project is a Todo application developed using React, aimed at providing a fully Responsive and user-friendly interface for managing tasks efficiently. 
+
 ## Key Features:
 
 1. **Add Todo**: Users can easily add new tasks using a form.
@@ -70,7 +71,7 @@ Mobile Responsiveness
 ## Deployment
 
 1. Deployed on Netlify
-2. Deployment Link: 
+2. Deployment Link: https://funny-kangaroo-7f57e8.netlify.app/
 
 ## Future Improvement
 
