@@ -34,25 +34,25 @@ The application includes  features such as search and filter functionalities to 
 ## Screenshots
 
 OverView
-![App Screenshot](public\screenshots\Overview.png)
+![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Overview.png)
 
 Adding task
-![App Screenshot](public\screenshots\Adding.png)
+![App Screenshot]([public\screenshots\Adding.png](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Adding.png))
 
 Edit task
-![App Screenshot](public\screenshots\Edit.png)
+![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Edit.png)
 
 Complete task
-![App Screenshot](public\screenshots\Completed.png)
+![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Completed.png)
 
 Delete Items
-![App Screenshot](public\screenshots\Delete.png)
+![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Delete.png)
 
 Search Items
-![App Screenshot](public\screenshots\Search.png)
+![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Search.png)
 
 Mobile Responsiveness
-![App Screenshot](public\screenshots\Mobile.png)
+![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Mobile.png)
 
 ## Installation
 
