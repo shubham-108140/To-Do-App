@@ -1,70 +1,83 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# To-Do List
 
-## Available Scripts
+A Todo list application is a tool designed to help users manage tasks or activities they need to complete. It typically includes functionalities like adding new tasks, viewing existing tasks, marking tasks as completed, updating task details, and deleting tasks when they are no longer needed.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is a Todo application developed using React, aimed at providing a fully Responsive and user-friendly interface for managing tasks efficiently. 
+## Key Features:
 
-### `npm test`
+1. **Add Todo**: Users can easily add new tasks using a form.
+2. **View Todos**: Displays a list of all existing todos for quick reference.
+3. **Update Todo**: Allows users to edit the details of any todo item.
+4. Delete Todo: Provides functionality to remove todos that are no longer needed.
+5. **Mark as Completed**: Users can toggle the status of todos between completed and pending.
+6. **State Management**: Utilizes React state and hooks (useState, useEffect) for efficient management of application state.
+7. **Data Integration**: Implements local storage to store and retrieve todo data, ensuring persistence even after the browser is closed.
+8. **Styling**: Styled with Tailwind CSS, FontAwesome icons, Chakra UI, Material UI to achieve a responsive design that works seamlessly on both desktop and mobile devices.
+## Additional Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application includes  features such as search and filter functionalities to enhance user experience by enabling quick access and organization of todos.
+## Technologies Used
+1. React
 
-### `npm run build`
+2. React hooks (useState, useEffect)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Tailwind CSS, Chakra UI, Material UI, FontAwesome icons 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Local Storage API (for data persistence)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Context API for state management
+## Screenshots
 
-### `npm run eject`
+OverView
+![App Screenshot](public\screenshots\Overview.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Adding task
+![App Screenshot](public\screenshots\Adding.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Edit task
+![App Screenshot](public\screenshots\Edit.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Complete task
+![App Screenshot](public\screenshots\Completed.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Delete Items
+![App Screenshot](public\screenshots\Delete.png)
 
-## Learn More
+Search Items
+![App Screenshot](public\screenshots\Search.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Mobile Responsiveness
+![App Screenshot](public\screenshots\Mobile.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+1. Clone the repository: git clone https://github.com/shubham-108140/To-Do-App.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Navigate into the project directory: cd your-repo
 
-### Analyzing the Bundle Size
+3. Install dependencies: npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Start the application: npm start
 
-### Making a Progressive Web App
+5. Open your browser and visit: http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    
+## Deployment
 
-### Advanced Configuration
+1. Deployed on Netlify
+2. Deployment Link: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Future Improvement
 
-### Deployment
+Soon will be adding the userAuthentication system into it so that each user will be able to manage its own tasks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Thankyou !!!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+

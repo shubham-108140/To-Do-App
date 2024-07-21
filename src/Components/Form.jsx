@@ -1,35 +1,50 @@
-const Form = ({setTodos}) => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquarePlus } from "@fortawesome/free-regular-svg-icons";
+import { TodoContext } from "../App";
+import { useContext } from "react";
 
-    const handleSubmit =(event)=>{
-        console.log("Form Submitted")
-        event.preventDefault(); //prevent rerendereing-auto when hit submit
-        let value = event.target.elements.toDo.value;
-        console.log(value);
-        setTodos((prevtodo)=>{
-          return [...prevtodo,{title:value,id:crypto.randomUUID(),is_completed:false}]
-        })
 
-        event.target.reset();   //reset fields of form after bering submitted
-    }
+const Form = () => {
+  const {setTodos}=useContext(TodoContext);
+  const handleSubmit = (event) => {
+    console.log("Form Submitted");
+    event.preventDefault(); //prevent rerendereing-auto when hit submit
+
+    let value = event.target.elements.toDo.value;
+    console.log(value);
+
+    const newToDo = {
+      title: value,
+      id: crypto.randomUUID(),
+      is_completed: false,
+    };
+
+    setTodos((prevTodos) => {
+      const updatedTodos = [...prevTodos, newToDo];
+      localStorage.setItem("todos", JSON.stringify(updatedTodos)); // Update localStorage
+      return updatedTodos; // Return updated todos state
+    });
+    event.target.reset(); //reset fields of form after bering submitted
+  };
+
+  
   return (
     <div>
-      <form autoComplete="none" className="form" onSubmit={handleSubmit}>
-      {/* <label htmlFor="todo">
-        </label> */}
-        <input
-          name="toDo"
-          id="toDo"
-          type="text"
-          placeholder="Write Your Next Task: "
-        />
-      <button >
-        <span className="visually-hidden">Submit</span>
-        <svg>
-          <path d="" />
-        </svg>
-      </button>
-      </form>
-    </div>
+        <form autoComplete="none" className="form w-2/4" onSubmit={handleSubmit}>
+          <input
+            name="toDo"
+            id="toDo"
+            type="text"
+            placeholder="Write Your Task: "
+            className="text-white"
+          />
+          <button className="p-3  bg-[#22C55E] rounded-md">
+            {/* <button className="p-3 bg-[#22C55E] rounded-md"> */}
+            <FontAwesomeIcon icon={faSquarePlus} size="xl" />
+          </button>
+        </form>
+      </div>
+    
   );
 };
 

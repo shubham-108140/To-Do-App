@@ -1,3 +1,8 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *,
 *::after,
 *::before {
@@ -8,8 +13,10 @@
 }
 html,
 body {
+  padding: 2%;
   font-family: sans-serif;
-  background-color: #0d0d0d;
+  /* background-color: #0d0d0d; */
+  background-color: #27374D;
   color: #fff;
   display: flex;
   align-items: center;
@@ -48,13 +55,13 @@ button {
     justify-content: center;
   }
 }
-header {
+/* header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 12px;
   padding: 42px;
-}
+} */
 .todohero_section {
   border: 1px solid #c2b39a;
   display: flex;
@@ -89,9 +96,22 @@ header {
 .form label {
   width: 90%;
 }
-.form input {
+/* .form input {
+  background-color: #E88D67;
   background-color: #1f2937;
-  color: #fff;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 11px;
+  padding: 12px;
+} */
+
+.form input {
+  /* background-color: #E88D67; */
+  background-color: #ffffff;
+  color: black; /* Text color (including placeholder) */
   width: 100%;
   height: 50px;
   outline: none;
@@ -99,16 +119,24 @@ header {
   border-radius: 11px;
   padding: 12px;
 }
-.form button {
+
+/* If needed, specifically target placeholder */
+ /* Ensure placeholder text color is white  */
+
+/* .form input::placeholder {
+  color: #ffffff;
+} */
+
+/* .form button {
   width: 10%;
   height: 50px;
   border-radius: 11px;
   background-color: #88ab33;
   border: none;
-}
+} */
 .todo_list {
   align-self: center;
-  width: 97%;
+  width: 100%;
   max-width: 455px;
   display: flex;
   flex-direction: column;
@@ -125,9 +153,11 @@ header {
   height: 70px;
   width: 100%;
   max-width: 455px;
-  border: 1px solid #c2b39a;
+  border: 1px solid #aba7a2;
   font-size: 16px;
-  background-color: #0d0d0d;
+  /* background-color: #0d0d0d; */
+  background-color: #526D82;
+  /* background-color: #769FCD; */
   color: #fff;
   padding: 12px;
 }
@@ -159,4 +189,8 @@ header {
 }
 .todo_items_right button svg {
   fill: #c2b39a;
+}
+
+.form-parent{
+  display: flex;
 }
