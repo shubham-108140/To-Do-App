@@ -38,7 +38,7 @@ OverView
 ![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Overview.png)
 
 Adding task
-![App Screenshot]([public\screenshots\Adding.png](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Adding.png))
+![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Adding.png)
 
 Edit task
 ![App Screenshot](https://github.com/shubham-108140/To-Do-App/blob/main/public/screenshots/Edit.png)
