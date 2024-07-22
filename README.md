@@ -14,9 +14,9 @@ This project is a Todo application developed using React, aimed at providing a f
 1. **Add Todo**: Users can easily add new tasks using a form.
 2. **View Todos**: Displays a list of all existing todos for quick reference.
 3. **Update Todo**: Allows users to edit the details of any todo item.
-4. Delete Todo: Provides functionality to remove todos that are no longer needed.
+4. **Delete Todo**: Provides functionality to remove todos that are no longer needed.
 5. **Mark as Completed**: Users can toggle the status of todos between completed and pending.
-6. **State Management**: Utilizes React state and hooks (useState, useEffect) for efficient management of application state.
+6. **State Management**: Utilizes React state and hooks (useState, useEffect, useContext) for efficient management of application state.
 7. **Data Integration**: Implements local storage to store and retrieve todo data, ensuring persistence even after the browser is closed.
 8. **Styling**: Styled with Tailwind CSS, FontAwesome icons, Chakra UI, Material UI to achieve a responsive design that works seamlessly on both desktop and mobile devices.
 ## Additional Features
@@ -25,7 +25,7 @@ The application includes  features such as search and filter functionalities to 
 ## Technologies Used
 1. React
 
-2. React hooks (useState, useEffect)
+2. React hooks (useState, useEffect, useContext for state management)
 
 3. Tailwind CSS, Chakra UI, Material UI, FontAwesome icons 
 
